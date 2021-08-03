@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Task2.Services
 {
-    public class WeatherService
+    public class WeatherForecastService
     {
         private static readonly Random Rng = new Random();
 

@@ -17,9 +17,9 @@ namespace Task2.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get(WeatherService weatherService)
+        public IEnumerable<WeatherForecast> Get(WeatherForecastService weatherForecastService)
         {
-            return weatherService.GetAll();
+            return weatherForecastService.GetAll();
         }
     }
 }
