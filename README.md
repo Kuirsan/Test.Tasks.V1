@@ -1,4 +1,5 @@
 # Test.Tasks.V1
+* Необходимая версия .NET Core - [.NET 5.0+](https://dotnet.microsoft.com/download/dotnet/5.0)
 
 ## Задача 1 - Task1
 
