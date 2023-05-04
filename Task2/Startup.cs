@@ -21,7 +21,6 @@ namespace Task2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped<WeatherForecastService>();
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Task2", Version = "v1"}); });
         }
 
